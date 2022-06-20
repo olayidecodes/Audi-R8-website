@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.subheading_text{
+    border-left: 2px solid rgb(184, 184, 244);
+    padding-left: 2rem;
+    font-size: 1.8rem;
+    font-weight: 350;
+}

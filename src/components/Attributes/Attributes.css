@@ -1,0 +1,22 @@
+.attribute{
+    display: flex;  
+    align-items: center;
+    width: 22rem;
+    margin-top: 3rem;
+}
+
+.attribute img{
+    width: 5rem;
+}
+
+.attribute_text{
+    margin-left: 2rem;
+}
+
+.attribute_text h4{
+    font-weight: 600;
+}
+
+.attribute_text p{
+    font-size: 1rem;
+}

@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.performance{
+    color: white;
+    padding: 3rem;
+}
+
+.first_text{
+    max-width: 35rem;
+}
+
+
+.first_text .p{
+    margin-top: 3rem;
+}
+
+.attributes{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 4rem 0 3rem 0;
+    justify-content: space-evenly;
+}
