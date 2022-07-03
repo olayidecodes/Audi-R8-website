@@ -1,0 +1,81 @@
+.box{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10%;
+}
+
+.box_1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.text_1{
+    background-color: rgb(129, 192, 207);
+    padding: 2rem;
+}
+
+.fire{
+    color: aliceblue;
+    font-size: 2.5rem;
+}
+
+.text_1 h3{
+    color: aliceblue;
+    font-size: 2rem;
+    font-weight: 300;
+    padding-bottom: 1rem;
+}
+
+.text_1 span{
+    color: aliceblue;
+    align-items: center;
+}
+
+.text_2{
+    background-color: aliceblue;
+    padding: 2rem;
+}
+
+.tint{
+    font-size: 2.5rem;
+    color: rgb(79, 73, 73);
+}
+
+.text_2 h3{
+    
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.img_1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0 , 0, 0.5)), url('../../assets/panel1.jpg');
+    background-size: cover;
+    background-position: center;
+
+}
+
+.img_2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0 , 0, 0.5)), url('../../assets/panel2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.box_2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0 , 0, 0.5)), url('../../assets/panel3.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (max-width: 900px) {
+    .box{
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .box_1{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+    }
+}

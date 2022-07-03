@@ -1,0 +1,99 @@
+.car_stats{
+    padding: 2rem;
+}
+
+.stats{
+    display: flex;
+    flex-wrap: wrap;
+    color: aliceblue;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.stat{
+    margin-bottom: 1em;
+    position: relative;
+    min-width: 10em;
+}
+
+.stat h2{
+    font-size: 3rem;
+    font-weight: 200;
+    
+}
+
+.stat h3{
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #4d4b4b;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -35%);
+}
+
+.stat p{
+    font-size: 0.7rem;
+    font-weight: 400;
+}
+
+.car{
+    padding: 4em 1em 4em 1em;
+}
+
+.circle{
+    border: 2px #ccc solid;
+    border-radius: 50%;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    background: #161616;
+    animation: glow 4s ease-in-out infinite;
+    aspect-ratio: 3 / 1;
+}
+
+.car img{
+    width: 70%;
+    position: absolute;
+    top: -50%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.circle div{
+    border: inherit;
+    border-radius: inherit;
+    background: inherit;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: inherit;
+}
+
+.circle .inner_md_circle{
+    width: 75%;
+    height: 75%;
+    top: 10%;
+    animation-delay: 3s;
+}
+
+.circle .inner_sm_circle{
+    width: 50%;
+    height: 50%;
+    top: 20%;
+}
+
+@keyframes glow {
+    0%{
+        box-shadow: none;
+    }
+    50%{
+        box-shadow: 0 0 1em #5bc7ca;
+    }
+    100%{
+        box-shadow: none;
+    }
+}

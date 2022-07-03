@@ -56,5 +56,4 @@ const techspecs =[
         rate: 'Direct Injection'
     }
 ]
-
 export default {icons, techspecs};
