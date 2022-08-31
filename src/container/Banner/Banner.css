@@ -32,13 +32,14 @@ ul li{
     flex-direction: column;
     height: 90%;
     justify-content: flex-end;
-    padding-left: 3rem;
+    padding: 0 1.5rem 0 3rem;
 }
 
 .bottom_text h1{
     font-size: 3rem;
     font-weight: 350;
 }
+
 
 .hamburger{
     font-size: 2rem;
@@ -54,7 +55,7 @@ ul li{
     .bottom_text h1{
         font-size: 1.7rem;
         font-weight: 400;
-        margin-bottom: 1rem;
+        margin-bottom: 0rem;
     }
     .menu {
         display: none;
@@ -91,5 +92,11 @@ ul li{
     }
     .active{
         display: none;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .bottom_text p {
+        font-size: .8rem;
     }
 }
