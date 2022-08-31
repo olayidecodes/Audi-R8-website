@@ -16,22 +16,34 @@ const Banner = () => {
     <div className='banner'>
         <nav className='header'>
             <span className='logo'>Audi R8</span>
-            <div className={toggle ? "active" : ""}>
+            <div className='menu'>
               <ul >
                 <li>Home</li>
                 <li>Garage</li>
                 <li>News</li>  
                 <li>Purchase</li>
               </ul>
-              <IoClose 
-              className='close'
-              onClick={toggler}
-              />
               
             </div>
             <GiHamburgerMenu
               className='hamburger'
-              onClick={toggler}/>
+              onClick={toggler}
+            />
+              {toggle && 
+                <div>
+                  <ul >
+                    <li>Home</li>
+                    <li>Garage</li>
+                    <li>News</li>  
+                    <li>Purchase</li>
+                  </ul>
+                  <IoClose 
+                  className='close'
+                  onClick={toggler}
+                  />
+                  
+                </div>
+              }
         </nav>
         <div className='bottom_text'>
             <h1>Join The Journey</h1>
