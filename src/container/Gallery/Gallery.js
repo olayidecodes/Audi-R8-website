@@ -9,8 +9,8 @@ const Gallery = () => {
     <div className='gallery'>
         <div className='box'>
             <div className='box_1'>
-                <div className='text_1'>
-                    <FaFire className='fire'/>
+                <div className='text text_1'>
+                    <FaFire className='icon fire'/>
                     <h3>Power and speed unleashed</h3>
                     <span>Learn More <FaArrowRight /></span>
                 </div>
@@ -20,8 +20,8 @@ const Gallery = () => {
                 <div className='img_2'>
 
                 </div>
-                <div className='text_2'>
-                    <FaTint className='tint'/>
+                <div className='text text_2'>
+                    <FaTint className='icon tint'/>
                     <h3>Respectful to the environment</h3>
                 </div>
             </div>

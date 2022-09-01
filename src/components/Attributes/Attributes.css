@@ -1,3 +1,5 @@
+
+
 .attribute{
     display: flex;  
     align-items: center;
@@ -20,4 +22,20 @@
 
 .attribute_text p{
     font-size: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+
+    .attribute img{
+        width: 3rem;
+    } 
+
+    .attribute_text h4 {
+
+        font-size: .8rem;
+    }
+
+    .attribute_text p {
+        font-size: .7rem;
+    }
 }

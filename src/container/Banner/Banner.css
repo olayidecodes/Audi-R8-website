@@ -5,6 +5,9 @@
     background-image: url(../../assets/banner.jpg);
     background-size: cover;
     background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 nav{ 
@@ -30,9 +33,7 @@ ul li{
 .bottom_text{
     display: flex;
     flex-direction: column;
-    height: 90%;
-    justify-content: flex-end;
-    padding: 0 1.5rem 0 3rem;
+    padding: 0 1.7rem 1rem 1.7rem;
 }
 
 .bottom_text h1{
@@ -56,6 +57,9 @@ ul li{
         font-size: 1.7rem;
         font-weight: 400;
         margin-bottom: 0rem;
+    }
+    .bottom_text p {
+        font-size: .7rem;
     }
     .menu {
         display: none;
@@ -95,8 +99,8 @@ ul li{
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 340px) {
     .bottom_text p {
-        font-size: .8rem;
+        font-size: .6rem;
     }
 }
